@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Raport - Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div>Raport - Menu</div>
+        <form method="post" action="meals/report">
+            <label>Cena minimalna</label><br />
+            <input type="number" name="minPrice" min="0" max="9999" step=".01" /><br />
+            <label>Cena maksymalna</label><br />
+            <input type="number" name="maxPrice" min="0" max="9999" step=".01" /><br />
+            <button type="submit">Raport</button>
+        </form>
+    </body>
+</html>
